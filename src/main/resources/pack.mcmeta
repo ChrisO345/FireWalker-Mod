@@ -1,0 +1,8 @@
+{
+  "pack": {
+    "description": "firewalker resources",
+    "pack_format": 18,
+    "forge:server_data_pack_format": 12,
+    "_comment": "FireWalker adds a new enchantment to the game."
+  }
+}

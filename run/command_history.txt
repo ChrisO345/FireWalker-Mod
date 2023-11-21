@@ -1,0 +1,27 @@
+/gamemode creative
+/setblock -7 67 126 firewalker:solid_magma
+/fill -7 67 126
+/fill -7 67 126 -4 67 127 firewalker:solid_magma
+/gamerule randomTickSpeed 1000
+/setblock -2 67 126 minecraft:frosted_ice
+/setblock -4 67 126 firewalker:solid_magma
+/gamerule randomTickSpeed 3
+/setblock -4 67 126 firewalker:solid_magma
+/setblock -2 67 126 minecraft:frosted_ice
+/enchant Dev minecraft:frost_walker
+/enchant Dev firewalker:fire_walker
+/fill 7 63 107
+/fill 7 63 107 4 63 105 minecraft:lava
+/enchant Dev firewalker:fire_walker
+/tp Dev ~ ~ ~ facing
+/enchant Dev minecraft:frost_walker
+/enchant Dev firewalker:fire_walker 2
+/enchant Dev minecraft:frost_walker 2
+/setblock 40 31 -63 firewalker:solid_magma[age=1]
+/fill 43 31 -58
+/fill 43 31 -58 ~ ~ ~ firewalker:solid_magma replace air
+/fill 43 31 -58 ~ ~ ~ firewalker:solid_magma replace lava
+/fill 41 31 -72
+/fill 41 31 -72 41 31 -77 firewalker:solid_magma
+/effect give Dev minecraft:speed infinite
+/effect give Dev minecraft:speed infinite 10 true

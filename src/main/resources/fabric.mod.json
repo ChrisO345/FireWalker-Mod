@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "firewalker",
+  "version": "${version}",
+  "name": "FireWalker Mod",
+  "description": "This mod creates an enchantment called Fire Walker, very similar to the vanilla Frost Walker, and it enables you to walk on lava!",
+  "authors": [
+    "ChrisO345"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/firewalker",
+    "sources": "https://github.com/ChrisO345/FireWalker-Mod/tree/Fabric-1.20.2"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/firewalker/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "github.io.chriso345.firewalker.FireWalker"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
